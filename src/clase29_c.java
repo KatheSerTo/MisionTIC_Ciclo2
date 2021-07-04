@@ -43,6 +43,7 @@ public class clase29_c {
                 break;
             default:
             System.out.println("No se encuentra el animla");
+            System.out.println("MAGIA");
 
         }
     }
