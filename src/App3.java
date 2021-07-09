@@ -7,7 +7,7 @@ public class App3 {
         System.out.println(perrito.getAullan());
         //si quiero crear un nuevo canino en Canino_2
         //me va a dar el error "No quick fixes available", dado que es una variable abstracta (explicado en (Canino2)
-        Canino2 c1 = new Canino2();
+        //ERROR Canino2 c1 = new Canino2();
             
     }
     
