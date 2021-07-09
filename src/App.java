@@ -12,7 +12,11 @@ public class App {
         //imprime el nombre asignado a la variable pepe con el método get
         System.out.println(perro1.getNombre());
         System.out.println(perro2.getNombre());
-        
+        System.out.println(perro1.contadorPerros);
+        System.out.println(perro2.contadorPerros);
+        //En este caso puedo invocar al método "oler" directamente con la clase, no necesito de un objeto intermediario
+        perro.oler();
+      
         //Función para mostrar mensajes emergentes
         //El mensaje  mostrado en la posición 1 será el mensaje principal mostrado, el de la 2da posición será el título del mensaje emergente. 
         //JOptionPane.showMessageDialog(null,"Ya es hora de la Clase", "Quiero que sea el descanso", JOptionPane.ERROR_MESSAGE); //WARNING MESSAGE (pone signo de ?)

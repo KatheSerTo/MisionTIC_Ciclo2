@@ -11,6 +11,9 @@ public class perro extends Canino{
     private String orinar;
     private String nombre;
     private int edad;
+    // al tenerlo como static sería valido para toodo lo que se crea. En este caso para todos los perros que se creen
+    //Se le llama una variable compartda. Así, cada vez que se crea una nueva variable "perro", el contador aumenta automaticamente. Porque toma la clase en gral
+    public static int contadorPerros=0;
 
     //Constructor 
     //Java hace por defecto el constructor
@@ -25,6 +28,7 @@ public class perro extends Canino{
        this.nombre = nombre;
        this.edad = edad;
        this.orinar = orinar;
+       contadorPerros++;
     } 
     // En Python  def__init__(): Es el constructor de una clase  
     //Metodos
@@ -47,6 +51,11 @@ public class perro extends Canino{
     // ya que en boleanos se toma como "es perseguir cola? (V o F) "
     public boolean isPerseguirCola() {
         return PERSEGUIR_COLA;
+    }
+
+    //Creando un método static. Cuando algo es estatico, no necesito un objeto para invocarlo. Invoco directamente a la clase
+    public static void oler(){
+        System.out.println("Sniiff");
     }
 
 
