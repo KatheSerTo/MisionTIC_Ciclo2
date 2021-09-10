@@ -29,5 +29,6 @@ public static void main(String args[]){
         /*Guardo el buffer como format ASCII, pero lo saco, imprimo com String*/ 
         System.out.println(new String (buffer);
 }
-    
 }
+    
+
