@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+header {
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color:white;
+}
+.contenedor-menu {
+    width: 300px;
+    margin: auto;
+    background-color:white;
+    float: left;
+    height: 600px;
+    border: 2px solid black;
+}
+
+
